@@ -84,3 +84,17 @@
     .offset-by-one-half.columns1     { margin-left: 52%; }
 
 }
+
+.container1 .three .pagebuilder-button-primary:before {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(#c00));
+    background-image: linear-gradient(to bottom, red, #c00);
+}
+
+
+.container1 .three a span {
+    font-size: 14px;
+    line-height: 1;
+    font-family: "ducati-condensed", Arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
